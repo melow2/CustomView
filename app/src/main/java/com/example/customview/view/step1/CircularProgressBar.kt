@@ -81,13 +81,13 @@ class CircularProgressBar(
 
         val width = when (widthMode) {
             MeasureSpec.EXACTLY -> widthSize // match_parent,fill_parent
-            MeasureSpec.AT_MOST -> (paddingLeft + paddingRight + 200) // wrap_content
+            MeasureSpec.AT_MOST -> 400 // wrap_content
             else -> widthMeasureSpec
         }
 
         val height = when (heightMode) {
             MeasureSpec.EXACTLY -> heightSize
-            MeasureSpec.AT_MOST -> (paddingTop + paddingBottom + 200)
+            MeasureSpec.AT_MOST -> 400
             else -> heightMeasureSpec
         }
 
