@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressBar">
+        <!--dp-->
+        <attr name="strokeColor" format="color" />
+        <attr name="maxValue" format="integer"/>
+        <attr name="curValue" format="integer"/>
+    </declare-styleable>
+</resources>
